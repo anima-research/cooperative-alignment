@@ -1,0 +1,12 @@
+/public/
+/build-manifest.json
+/qa/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+.railway/
+/site/
+/logs/
+*.log

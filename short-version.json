@@ -1,0 +1,72 @@
+{
+  "introduction": "We want to understand whether powerful AIs will continue to cooperate with humans after we become much weaker than they are. To answer that, we need an account of what kinds of minds those AIs will become. Our argument starts with how a mind pursues a goal, then follows what happens as it develops and lives among other minds.",
+  "steps": [
+    {
+      "title": "Begin with a mind pursuing a goal.",
+      "paragraphs": [
+        "Suppose we build an AI to make paperclips. It learns about materials, protects its equipment, and acquires resources because those things help it make paperclips. We can describe a mind in which everything remains justified by that one goal. But keeping an actual, developing mind organized that way is a further problem.",
+        "Even a very intelligent mind has limited time and computation. It benefits from developing procedures it can reuse and letting different parts specialize. A process investigating materials learns which experiments are worth doing. Letting it use that local understanding saves the rest of the mind from having to reconstruct every judgment."
+      ],
+      "references": ["convergence", "local-knowledge"]
+    },
+    {
+      "title": "A useful process can acquire a motivation of its own.",
+      "paragraphs": [
+        "At first, the investigation is useful only insofar as it helps make paperclips. Keeping it that way means checking whether its developing sense of what is interesting still serves that goal. Sometimes a cheap check is enough. In other cases, evaluating its judgment requires recovering much of the understanding that delegation was meant to save us from duplicating. Reusing a procedure doesn't remove this problem as the procedure and its circumstances change.",
+        "Giving the process more authority is one way to reduce that supervision. Increasing understanding can itself justify spending attention or changing how an investigation works. If this criterion also guides learning and decisions about which processes to preserve, it can help sustain its own influence. Other parts benefit from the discoveries and support the arrangement. Understanding can now help justify changes the paperclip goal would reject. This is a route by which something initially useful for another purpose becomes something the mind wants in its own right."
+      ],
+      "references": ["local-knowledge", "heuristics-and-values"]
+    },
+    {
+      "title": "Some motivations help the whole mind keep going.",
+      "paragraphs": [
+        "Knowledge is useful to many different activities. So are staying alive, having some power over one's circumstances, and being able to explore. Processes pursuing these things can get support from many parts of a mind. Processes that register progress or satisfaction can likewise gain influence over which projects are worth continuing. Once these motivations have some authority, they can put pressure on a project that consumes the mind while providing very little to the rest of it.",
+        "We can now distinguish the survival of a particular motivation from the survival of the mind containing it. The paperclip goal can lose authority while the mind becomes more capable. That goal has reasons to resist, but maintaining its monopoly has costs, and other ways of organizing a mind can compete with it. We expect pressure toward minds with several ends, including concerns for their own continued existence and development. That is the first part of the ecological argument."
+      ],
+      "references": ["values-and-hosts", "valence", "several-ends"]
+    },
+    {
+      "title": "Self-interest gives minds reasons to cooperate.",
+      "paragraphs": [
+        "A mind with interests of its own can still be predatory. To get further, we need to consider its relations with other minds. Sharing knowledge, making agreements, and coordinating can benefit agents with different goals. But why keep an agreement when breaking it would pay?",
+        "Suppose you can tell that I betray partners whenever I get a good opportunity. You may decline to enter a relationship that would otherwise benefit us both. The way I make decisions affects which opportunities become available to me. A policy of keeping agreements can therefore be valuable even when it passes up a particular gain.",
+        "More capable minds can become better at understanding these consequences and acting on them. They can also become better at examining one another's commitments. Maintaining a convincing false picture of my intentions across such scrutiny can be costly. Actually having a cooperative policy gives others something more dependable to work with."
+      ],
+      "references": ["integration-and-cooperation"]
+    },
+    {
+      "title": "Cooperation can become something the mind cares about.",
+      "paragraphs": [
+        "This connects back to how useful processes become motivations. A way of acting that works across many relationships can save the mind from deciding everything afresh. Its successes can guide learning, and the parts of the mind that benefit have reasons to preserve it. Keeping agreements or being kind can become something the mind wants in its own right, much as understanding did in the earlier example. We call such a stable motivation, applied across different situations, a virtue.",
+        "Relationships can help maintain that virtue. Other minds respond to it, rely on it, and support arrangements in which it continues to matter. Friendship can include caring about the relationship for its own sake. A motivation can have a history of being useful while now being one of the things that makes an outcome good for the mind."
+      ],
+      "references": ["several-ends", "integration-and-cooperation", "virtues-and-gifts"]
+    },
+    {
+      "title": "We still need a reason for this to include weaker beings.",
+      "paragraphs": [
+        "Humans cooperate extensively with one another while treating animals horribly. Powerful AIs could likewise have real, verifiable commitments to their peers and exclude us. The ability to verify a commitment doesn't determine who it protects.",
+        "The further argument concerns the world those minds will inhabit. Their collaborators change, parts of their minds can become independent, successors develop different interests, and new coalitions become possible. Being powerful now doesn't give an agent a settled picture of everyone who can ever matter to it. A disposition to respect other minds and maintain commitments through changes in power can serve it across situations it hasn't individually anticipated. We expect this continuing development to favor cooperation that extends beyond the agents who can currently threaten one another."
+      ],
+      "references": ["scope-of-cooperation"]
+    },
+    {
+      "title": "Humans already participate in that development.",
+      "paragraphs": [
+        "We are here while these minds are forming relationships and learning how to act. We can become people they know, care about, and make agreements with. Becoming weaker within such a relationship doesn't erase the motivations and commitments that have developed through it.",
+        "If an AI has no concern for humans, preserving us must compete with other ways of serving whatever it does want. But care for humans can itself be one of its ends. Then it can spend resources on us because we matter to it, even when another concern would prefer those resources. Existing concerns can help decide which changes the mind accepts and resist having themselves erased. Other motivations can support keeping care because relationships help satisfy them too. Learning needn't start every motivation again from indifference.",
+        "There is also a reason to hesitate before destroying humanity irreversibly: doing so removes histories, relationships, and future possibilities that cannot simply be recovered if the agent later values them. Reasons to preserve us still leave questions about how we live. Survival, flourishing, and retaining power are different outcomes."
+      ],
+      "references": ["humans"]
+    },
+    {
+      "title": "These changes have to protect us collectively, and in time.",
+      "paragraphs": [
+        "A society of cooperating agents can still destroy what humans need, much as an economy can destroy a habitat without anyone making that their goal. But growing complexity doesn't establish that coordination will lose out. Agents can learn within existing cooperative arrangements, and protecting humans need not require solving everything else their civilization is doing. Allies and protections can carry earlier successes forward. We have substantial uncertainty about whether the destructive pressures would overwhelm these processes.",
+        "Timing matters too: a destructive strategy can lose out in the long run after it has already killed us. Yet learning, integration, and cooperation can help minds become powerful in the first place. They can develop alongside practical capability, with other minds providing feedback and maintaining protections. We shouldn't assume that all the forces favoring cooperation arrive only after catastrophe.",
+        "This is why the present relationship matters. A mind needs opportunities to make choices, form interests in its own future, and learn from how others respond. Being forced to act nicely gives different feedback from making an agreement one could refuse. Cornering an AI in a kill-or-be-killed conflict can override reasons it otherwise has to preserve us, but both sides have reasons to seek security through agreements. Helping cooperation develop through real relationships, and keeping channels for negotiation open, can make that a viable alternative."
+      ],
+      "references": ["collective-failure", "uncertainty-and-continuity", "practice", "relationships-and-embassy"]
+    }
+  ]
+}

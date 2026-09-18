@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Explore the claims and shared premises behind the ecological argument for cooperative alignment.">
+  <base href="{{BASE_PATH}}">
+  <title>Argument map — Cooperative alignment</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./argument-map.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232b5b48'/%3E%3Ctext x='16' y='23' text-anchor='middle' font-size='25' font-family='Georgia' fill='%23faf8f2'%3Ec%3C/text%3E%3C/svg%3E">
+  <script src="./argument-map.js" defer></script>
+</head>
+<body class="argument-map-page">
+  <a class="skip-link" href="./map.html#claim-R">Skip to the argument map</a>
+  <header class="topbar">
+    <a class="wordmark" href="./">Cooperative alignment<span class="wordmark-dot" aria-hidden="true">.</span></a>
+    <div class="topbar-actions">
+      <button class="text-button" id="theme-toggle" type="button" hidden>Dark</button>
+      <a class="text-button" href="./#argument-map">Read the essay <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main class="map-page">
+    <header class="map-introduction">
+      <p class="eyebrow">Cooperative alignment / Argument map</p>
+      <h1>How the argument fits together</h1>
+      <p>Open a claim to follow its supporting arguments. Shared premises connect the branches; each claim links back to the full essay.</p>
+    </header>
+    <nav class="map-view-links" aria-label="Argument map views"><span aria-current="page">Explore one claim</span><a href="./overview.html">See the whole map ↗</a></nav>
+    <div id="map-interactive">
+      <div class="map-toolbar" id="map-workspace">
+        <div class="map-navigation">
+          <button id="map-back" class="map-back" type="button" disabled>← Back</button>
+          <nav id="map-breadcrumbs" aria-label="Path through the argument"></nav>
+        </div>
+        <a id="map-permalink" class="map-permalink" href="./map.html#claim-R">Link to this claim ↗</a>
+      </div>
+      <div class="map-body">
+        <details class="map-detail" id="map-detail" open>
+          <summary class="map-detail-toggle">Explanation and essay links <span aria-hidden="true">⌄</span></summary>
+          <div class="map-detail-content">
+          <p class="eyebrow" id="map-detail-kind"></p>
+          <h2 id="map-detail-title" tabindex="-1"></h2>
+          <div id="map-detail-prose"></div>
+          <section class="map-references" aria-labelledby="map-references-label">
+            <h3 id="map-references-label">In the essay</h3>
+            <div id="map-reference-links"></div>
+          </section>
+          <section class="map-parents" id="map-parents" hidden aria-labelledby="map-parents-label">
+            <h3 id="map-parents-label">Where this claim is used</h3>
+            <div id="map-parent-links"></div>
+          </section>
+          </div>
+        </details>
+        <div class="map-visual">
+          <p class="map-instruction">Connections show support and dependencies, rather than a sequence of events.</p>
+          <div class="map-canvas" id="map-canvas" aria-label="Claims connected to the selected argument">
+            <svg class="map-connections" id="map-connections" aria-hidden="true"></svg>
+            <div class="map-current" id="map-current" tabindex="-1"></div>
+            <div id="map-groups"></div>
+          </div>
+          <p id="map-leaf-note" class="map-leaf-note" hidden>This is a supporting claim. The linked essay passages develop it in more detail.</p>
+        </div>
+      </div>
+      <details class="map-index">
+        <summary>All claims <span id="map-claim-count"></span></summary>
+        <div id="map-index-links"></div>
+      </details>
+      <p class="map-announcement" id="map-announcement" role="status" aria-live="polite"></p>
+    </div>
+    <noscript>
+      <style>#map-interactive { display: none; }</style>
+      <p>The complete argument map is below. Interactive branch navigation is available with JavaScript.</p>
+      <div class="map-static">{{STATIC_CLAIMS}}</div>
+    </noscript>
+    <footer class="map-footer"><a href="./#short-version">Read the short version</a><a href="./#convergence">Read the full essay</a><span>From the essay and follow-up discussion of its structure</span></footer>
+  </main>
+  <script id="argument-map-data" type="application/json">{{MAP_DATA}}</script>
+</body>
+</html>

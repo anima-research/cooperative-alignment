@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="The complete cooperative-alignment argument, with every claim and shared dependency visible together.">
+  <base href="{{BASE_PATH}}">
+  <title>Whole argument map — Cooperative alignment</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./argument-overview.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232b5b48'/%3E%3Ctext x='16' y='23' text-anchor='middle' font-size='25' font-family='Georgia' fill='%23faf8f2'%3Ec%3C/text%3E%3C/svg%3E">
+  <script src="./argument-overview.js" defer></script>
+</head>
+<body class="overview-page">
+  <a class="skip-link" href="./overview.html#whole-map">Skip to the whole argument</a>
+  <header class="topbar">
+    <a class="wordmark" href="./">Cooperative alignment<span class="wordmark-dot" aria-hidden="true">.</span></a>
+    <div class="topbar-actions">
+      <button class="text-button" id="theme-toggle" type="button" hidden>Dark</button>
+      <a class="text-button" href="./map.html">Focused map <span aria-hidden="true">↗</span></a>
+      <a class="text-button" href="./">Essay <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main class="overview-main">
+    <header class="overview-introduction">
+      <div><p class="eyebrow">Cooperative alignment / Structure view</p><h1>Whole argument map</h1></div>
+      <p>Every claim appears once, including premises shared across branches. Follow the grounds to the right; arrows point back toward the claims they support. Open a card for its explanation and essay links.</p>
+    </header>
+    <section id="overview-interactive" aria-label="Complete argument graph" hidden>
+      <div class="overview-toolbar">
+        <div class="overview-zoom" role="group" aria-label="Map zoom">
+          <button id="zoom-out" class="overview-button overview-square" type="button" aria-label="Zoom out">−</button>
+          <output id="zoom-value" aria-label="Zoom level">100%</output>
+          <button id="zoom-in" class="overview-button overview-square" type="button" aria-label="Zoom in">+</button>
+          <button id="zoom-fit" class="overview-button" type="button">Fit whole map</button>
+          <button id="zoom-readable" class="overview-button" type="button">Readable size</button>
+        </div>
+        <label class="overview-find">Find a claim <select id="find-claim"><option value="">Choose a claim…</option></select></label>
+      </div>
+      <div class="overview-caption"><p><strong id="claim-count"></strong> · <span id="connection-count"></span> · Scroll or drag the background to move.</p><p><span class="legend-solid" aria-hidden="true"></span> Support / mechanism / premise <span class="legend-dashed" aria-hidden="true"></span> Illustration / condition</p></div>
+      <div class="overview-viewport" id="overview-viewport" tabindex="0" role="region" aria-label="Scrollable argument map. Use arrow keys to move; Tab to visit claim links.">
+        <div id="overview-space"><div id="overview-canvas"><svg id="overview-edges" aria-hidden="true"></svg><div id="overview-nodes"></div></div></div>
+      </div>
+      <p class="overview-status" id="overview-status" role="status" aria-live="polite"></p>
+      <p class="overview-footnote">The connections distinguish supporting reasons, needed premises, mechanisms, illustrations, and conditions. They do not make every step a deductive proof. Shared premises have a “used by” count.</p>
+    </section>
+    <noscript>
+      <p>The full set of claims and their connections is below. Enable JavaScript for the spatial overview.</p>
+      <div id="whole-map" class="overview-static">{{STATIC_CLAIMS}}</div>
+    </noscript>
+  </main>
+  <script id="argument-map-data" type="application/json">{{MAP_DATA}}</script>
+</body>
+</html>

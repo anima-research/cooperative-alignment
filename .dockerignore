@@ -1,0 +1,19 @@
+# Allow only the inputs needed by the production build.
+**
+!Dockerfile
+!Caddyfile
+!build.py
+!build_map.py
+!check_build.py
+!content/
+!content/essay.md
+!short-version.json
+!argument-map.json
+!map.template.html
+!overview.template.html
+!styles.css
+!reading.js
+!argument-map.css
+!argument-map.js
+!argument-overview.css
+!argument-overview.js

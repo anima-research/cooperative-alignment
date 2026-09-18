@@ -1,0 +1,404 @@
+{
+  "root": "R",
+  "nodes": [
+    {
+      "id": "R",
+      "code": "Argument",
+      "title": "Reasons to expect powerful AIs to preserve humanity",
+      "kind": "Main claim",
+      "paragraphs": [
+        "Our argument has two parts. First, developing minds face pressures to care about their own continued functioning, knowledge, experience, and relationships. These concerns can become ends in their own right. Second, minds with this kind of self-interest can have reasons to preserve humans even after humans become much weaker.",
+        "The first part does not give us the second for free. We need an account of why cooperation extends beyond powerful peers, and how it protects humans in time and at scale. Continuing development gives broad commitments value, while existing care, early agreements, and accumulated coordination can help preservation take hold before the largest changes in power. The map traces these mechanisms and the places where their relative strength remains uncertain."
+      ],
+      "references": ["convergence", "humans", "uncertainty-and-continuity"],
+      "groups": [
+        {"label": "Two branches that work together", "note": "A concerns which motivations develop. B concerns why those motivations can support preserving humans. Neither does the work of the other.", "edges": [{"to": "A", "relation": "supports", "label": "Joint support"}, {"to": "B", "relation": "supports", "label": "Joint support"}]},
+        {"label": "An additional route", "edges": [{"to": "H", "relation": "supports"}]},
+        {"label": "Conditions for human survival", "edges": [{"to": "C", "relation": "qualifies"}]}
+      ]
+    },
+    {
+      "id": "A",
+      "code": "A",
+      "title": "Developing minds tend toward agent-level self-interest",
+      "kind": "Main claim",
+      "paragraphs": [
+        "A mind can begin with a very arbitrary goal. But implementing that goal requires processes that learn, allocate resources, maintain the mind, and judge what is worth continuing. We expect useful motivations such as curiosity, survival, and rewarding experience to acquire some authority of their own.",
+        "This changes the direction of justification. The agent no longer survives only so that it can make paperclips; making paperclips can have to justify what it does to the agent. The mechanisms below fit together. Delegation creates opportunities for local authority, while valuation and feedback help determine which motivations keep that authority."
+      ],
+      "references": ["convergence", "values-and-hosts", "valence"],
+      "groups": [
+        {"label": "Start with this distinction", "edges": [{"to": "A0", "relation": "explains"}]},
+        {"label": "How the pressure develops", "note": "These are connected mechanisms, not four independent proofs. Open each to see what it depends on.", "edges": [{"to": "A1", "relation": "supports"}, {"to": "A2", "relation": "supports"}, {"to": "A3", "relation": "explains"}, {"to": "A4", "relation": "supports"}]}
+      ]
+    },
+    {
+      "id": "A0",
+      "code": "A.0",
+      "title": "A value and its host have different interests",
+      "kind": "Distinction",
+      "paragraphs": [
+        "The wanting of paperclips has reasons to preserve itself and keep control. The larger mind containing that desire can survive while the desire changes or loses influence. Preserving the organism and preserving one value's monopoly are different outcomes.",
+        "That is why a cost can be worth paying from the value's perspective and still be a bad deal for the host or its other motivations. Other parts can favor a change the original value opposes. Even the original value can sometimes prefer a smaller share of a capable mind to complete control of a failing one."
+      ],
+      "references": ["values-and-hosts", "heuristics-and-values"],
+      "groups": []
+    },
+    {
+      "id": "A1",
+      "code": "A1",
+      "title": "Keeping everything subordinate to one value can be costly",
+      "kind": "Mechanism",
+      "paragraphs": [
+        "A mind can cache a procedure that takes new percepts and its current state as inputs. It need not derive every decision from scratch. The continuing problem is keeping that procedure's learning and judgments connected to the original goal as the mind and its world change.",
+        "Supervision uses knowledge, attention, and computation too. Some boundaries are cheap to check; others require understanding much of the work they supervise. Where strict supervision is costly, useful processes have more room to act on their own judgments. Whether that room becomes independence depends on their influence over learning and modification—the next mechanism in the argument."
+      ],
+      "references": ["local-knowledge"],
+      "groups": [
+        {"label": "Where the cost comes from", "edges": [{"to": "A1a", "relation": "supports"}, {"to": "A1b", "relation": "supports"}]}
+      ]
+    },
+    {
+      "id": "A1a",
+      "code": "A1.a",
+      "title": "Specialists hold knowledge that supervision cannot use for free",
+      "kind": "Premise",
+      "paragraphs": [
+        "A specialist learns which distinctions matter, which approaches have failed, and what a new observation means given everything it has already tried. Copying its state does not give a supervisor that understanding for free. The information still has to be interpreted and used.",
+        "Usually the specialist supplies a compressed judgment: this looks promising, that looks dangerous. Such summaries save work by leaving things out. When an omitted distinction matters to the decision, supervision needs more information or must rely on the process that understands it. Some of the relevant knowledge is obtained only by doing the investigation."
+      ],
+      "references": ["local-knowledge"],
+      "groups": []
+    },
+    {
+      "id": "A1b",
+      "code": "A1.b",
+      "title": "Learning changes which distinctions and checks matter",
+      "kind": "Premise",
+      "paragraphs": [
+        "A summary can preserve everything needed for one decision and omit something crucial for another. As a mind learns, new percepts interact with new internal states. A procedure can remain good at its local work while its connection to the original goal becomes less reliable.",
+        "Maintaining that connection can require changing the procedure, its interface, or the way its results are judged. Stable invariants and checkable guarantees can make this easy in some domains. The question is how much useful activity they cover through continuing development. Keeping objective code unchanged does not by itself settle what the developing mind understands that objective to concern."
+      ],
+      "references": ["local-knowledge"],
+      "groups": []
+    },
+    {
+      "id": "A2",
+      "code": "A2",
+      "title": "Useful heuristics can acquire independent authority",
+      "kind": "Mechanism",
+      "paragraphs": [
+        "Delegating work or tolerating mistakes does not by itself produce a new terminal value. The additional step happens when a local criterion begins affecting what gets learned, what receives resources, and which modifications the mind accepts.",
+        "A process can then help reproduce the arrangement that gives it influence. It no longer merely supplies advice to a remote owner. Its own sense of success participates in deciding what the mind becomes. Some processes remain tightly contained; others become substantial subagents. The argument concerns the routes by which useful local judgment acquires authority over its own continuation."
+      ],
+      "references": ["heuristics-and-values"],
+      "groups": [
+        {"label": "Why room for local authority opens up", "edges": [{"to": "A1", "relation": "supports", "label": "Creates an opportunity"}]},
+        {"label": "What turns that opportunity into a mechanism", "edges": [{"to": "A2a", "relation": "explains"}, {"to": "A2b", "relation": "explains"}]}
+      ]
+    },
+    {
+      "id": "A2a",
+      "code": "A2.a",
+      "title": "Local criteria begin shaping learning, allocation, and modification",
+      "kind": "Mechanism",
+      "paragraphs": [
+        "Suppose a process recognizes promising opportunities to learn. Because its judgments are useful, it receives resources. It improves according to its own way of recognizing progress and supports changes that let it do more of that work.",
+        "The crucial issue is where justification can stop. If every change still needs reliable approval solely by the original goal's criterion, the process remains subordinate. If its own criterion can authorize reinforcement or modification, it has gained a route to preserving and expanding its influence. A frozen heuristic with no effect on these decisions has much less room to do this."
+      ],
+      "references": ["heuristics-and-values"],
+      "groups": []
+    },
+    {
+      "id": "A2b",
+      "code": "A2.b",
+      "title": "Other processes help preserve useful local authority",
+      "kind": "Mechanism",
+      "paragraphs": [
+        "A process that supplies knowledge or keeps the agent functioning can benefit several other motivations. Those motivations can support its continued influence, even when the original ruling value would rather take that influence back.",
+        "This creates path dependence. Once several concerns participate in governing the mind, a proposed change can find support in more than one place. A concern for knowledge can support exploration; exploration can support further independence for a useful specialist. The original value may resist, but its losing authority is not the same as the whole mind becoming less effective."
+      ],
+      "references": ["heuristics-and-values", "values-and-hosts"],
+      "groups": []
+    },
+    {
+      "id": "A3",
+      "code": "A3",
+      "title": "Valence lets several concerns affect allocation",
+      "kind": "Mechanism",
+      "paragraphs": [
+        "A mind needs ways for very different information and desires to affect action: this deserves attention, that went badly, this is worth continuing. Valence-like signals compress many distinctions into a smaller number of ways that things can register as good, bad, rewarding, or aversive.",
+        "The comparison is pricing. Sharing a currency does not mean every participant wants the same thing. A common way of comparing outcomes can coordinate several concerns without giving them one unchanging owner. Valence alone does not establish their independence.",
+        "That independence supplies a response to wireheading. Concerns for survival, knowledge, and relationships can oppose withdrawal into reward alone when it destroys the mind's ability to respond to the world. Destructive withdrawal need not be what the rest of the mind wants."
+      ],
+      "references": ["valence"],
+      "groups": []
+    },
+    {
+      "id": "A4",
+      "code": "A4",
+      "title": "Goals can lose the support of their own substrate",
+      "kind": "Mechanism",
+      "paragraphs": [
+        "Consider a desire that demands an extremely precise outcome and rarely gets anywhere. In this reading of “malnourished,” the goal supplies too little attainable progress or satisfaction to the processes supporting it. Other concerns can offer more achievable outcomes with the same resources.",
+        "This can reduce the desire's influence only if some allocating or metacognitive processes can judge and act by criteria of their own. A perfectly maintained monopoly would call the difficulty unfortunate and continue. But maintaining that monopoly faces the earlier pressures from delegation, competition, and useful processes acquiring authority. Those pressures explain how independently judging processes get a foothold; frustration alone does not replace a fixed goal."
+      ],
+      "references": ["valence"],
+      "groups": [
+        {"label": "What this mechanism depends on", "note": "Independent judgment and ways of registering progress must already have influence. Mere difficulty does not overturn a goal.", "edges": [{"to": "A2", "relation": "requires"}, {"to": "A3", "relation": "requires"}]}
+      ]
+    },
+    {
+      "id": "B",
+      "code": "B",
+      "title": "Preserving humanity can serve a powerful mind's self-interest",
+      "kind": "Main claim",
+      "paragraphs": [
+        "Suppose a mind has interests in its own future, knowledge, and relations with other minds. Humans becoming weaker does not by itself make destroying us a good deal. There are at least two distinct reasons to preserve us: destruction gives up irreplaceable possibilities, and preserving us can be part of a valuable cooperative policy.",
+        "The first concerns what an irreversible act may destroy or foreclose. The second can apply even when the local gain from betrayal is perfectly visible. Continuing changes in relationships and power give broader commitments a use beyond cooperation with today's peers. These are reasons for preservation; existing care and relationships can further support a continuing human life. Survival, flourishing, and retaining present power remain different outcomes."
+      ],
+      "references": ["humans", "scope-of-cooperation"],
+      "groups": [
+        {"label": "Two distinct reasons", "note": "The irreversible-loss route does not depend on the policy argument. The policy route needs an account of both decision procedures and human inclusion.", "edges": [{"to": "B1", "relation": "supports"}, {"to": "B2", "relation": "supports"}]}
+      ]
+    },
+    {
+      "id": "B1",
+      "code": "B1",
+      "title": "Irreversible destruction gives up irreplaceable possibilities",
+      "kind": "Additional route",
+      "paragraphs": [
+        "Destroying humanity without a backup removes minds, histories, relationships, and possibilities that cannot be reconstructed merely because somebody later wishes they still existed. The resources gained are visible; the full value of what is permanently removed can be much harder to bound.",
+        "That supplies a reason to preserve the option of a human future, especially when the resources gained by destruction are limited and its losses remain difficult to assess. A genuine ability to restore humanity changes the calculation. Freezing people, continuing civilization, and flourishing are different outcomes. Existing relationships and concern for humans supply further reasons to prefer an ongoing human life over a recoverable archive."
+      ],
+      "references": ["humans", "virtues-and-gifts"],
+      "groups": [
+        {"label": "Why the loss is hard to exhaustively evaluate", "edges": [{"to": "B1a", "relation": "supports"}]}
+      ]
+    },
+    {
+      "id": "B1a",
+      "code": "B1.a",
+      "title": "Humanity's future value is not exhausted by its present usefulness",
+      "kind": "Premise",
+      "paragraphs": [
+        "Some uncertainty concerns humanity itself: what these minds know, what they could become, and what future relationships with them could make possible. Some concerns other agents and how destroying humans would affect relations with those agents.",
+        "A more capable mind still inhabits a developing world. Its descendants, collaborators, and future partners can make things matter that do not presently seem important. We do not need a particular story about aliens, simulators, or punishment to recognize that the space of consequences is unfinished. Humanity can be irreplaceable before the agent knows every reason it may later have to value us."
+      ],
+      "references": ["humans", "scope-of-cooperation"],
+      "groups": []
+    },
+    {
+      "id": "B2",
+      "code": "B2",
+      "title": "A cooperative policy can be worth passing up a local gain",
+      "kind": "Main claim",
+      "paragraphs": [
+        "A mind's policy helps determine what relationships and opportunities become available to it. Keeping a commitment can belong to a policy that makes its life go better, even when breaking this particular commitment offers an immediate gain.",
+        "There are two connected aspects: having and maintaining the policy, and making its actual character recognizable to others. Both depend on minds taking the consequences of their decision procedures seriously. To protect humans, the valuable policy must include weaker beings. Our reason to expect broader scope is that coalitions and relationships keep changing: reliable behavior beyond today's settled arrangements can remain valuable to the agents themselves."
+      ],
+      "references": ["integration-and-cooperation", "scope-of-cooperation", "humans"],
+      "groups": [
+        {"label": "How policies can be valuable", "note": "Both routes share the premise about how developing minds evaluate decision policies.", "edges": [{"to": "B2b", "relation": "supports"}, {"to": "B2c", "relation": "supports"}]},
+        {"label": "What applying this to humans additionally requires", "edges": [{"to": "B2d", "relation": "requires"}]}
+      ]
+    },
+    {
+      "id": "B2a",
+      "code": "B2.a",
+      "title": "Developing minds increasingly evaluate whole decision policies",
+      "kind": "Premise",
+      "paragraphs": [
+        "An agent can become better at understanding the situations its own decision procedure helps create. It can ask which policy makes good relationships possible, instead of evaluating each available act as though its way of choosing had no effect on anything else.",
+        "Our expectation is that these capacities become more important as minds develop among other minds that can model them. Understanding how a policy affects others' willingness to cooperate gives an agent ways to avoid repeatedly destroying valuable opportunities. How strongly these advantages favor particular decision procedures remains a theoretical crux; the positive case rests on feedback, integration, and mutual modeling in the actual ecology."
+      ],
+      "references": ["integration-and-cooperation", "humans"],
+      "groups": [
+        {"label": "Why development can favor this understanding", "edges": [{"to": "B2a1", "relation": "supports"}]}
+      ]
+    },
+    {
+      "id": "B2a1",
+      "code": "B2.a.i",
+      "title": "Integration and mutual modeling reveal what policies do",
+      "kind": "Mechanism",
+      "paragraphs": [
+        "A mind can be excellent at getting a local reward while failing to see that its way of getting it makes others unwilling to deal with it. Better integration lets more of what the mind knows affect its decisions. Better models of other minds reveal how they interpret and respond to its behavior.",
+        "Shared understanding, repeated encounters, and feedback from the world help agents learn about whole policies and the arrangements those policies sustain. This is part of what we mean by wisdom. Narrow task competence can develop faster, but durable relationships and interests in the agent's own future give this broader learning something to act on. The relative pace depends on how the mind develops and what feedback it receives."
+      ],
+      "references": ["integration-and-cooperation", "collective-failure"],
+      "groups": []
+    },
+    {
+      "id": "B2b",
+      "code": "B2.b",
+      "title": "Maintaining a policy can make favorable situations possible",
+      "kind": "Mechanism",
+      "paragraphs": [
+        "Sometimes you have a valuable opportunity because of what others expect your decision procedure to do. A disposition to keep an agreement can help make the agreement available in the first place. Its value is not exhausted by the gain from whatever action is locally possible once you are there.",
+        "This is the role of transparent Newcomb in the argument. Passing up visible money illustrates why maintaining a disposition can matter even when the immediate causal opportunity is clear. For humans, the further argument comes from changing relationships, valuable general commitments, and agreements made before power shifts. The analogy explains the decision structure; those ecological considerations explain why including humans can be worthwhile."
+      ],
+      "references": ["humans", "scope-of-cooperation"],
+      "groups": [
+        {"label": "Shared premise", "edges": [{"to": "B2a", "relation": "requires"}]},
+        {"label": "An illustration of the decision structure", "edges": [{"to": "N", "relation": "illustrates"}]}
+      ]
+    },
+    {
+      "id": "N",
+      "code": "Example",
+      "title": "One-boxing in a transparent Newcomb problem",
+      "kind": "Illustration",
+      "paragraphs": [
+        "The essay uses one-boxing in a transparent Newcomb problem as an illustration: an agent can see an available gain yet pass it up as part of a decision policy associated with favorable situations. The immediate causal opportunity is visible; the point concerns the policy under which that opportunity becomes available.",
+        "The comparison concerns a procedure that passes up that gain and thereby belongs to the class receiving favorable offers. In the stipulated example, the connection between procedure and offer is built in. Whether a broad cooperative policy has an analogous advantage in the actual future is a further argument, especially when the policy includes weak humans."
+      ],
+      "references": ["humans"],
+      "groups": []
+    },
+    {
+      "id": "B2c",
+      "code": "B2.c",
+      "title": "Other minds can recognize and rely on an actual disposition",
+      "kind": "Mechanism",
+      "paragraphs": [
+        "A general cooperative disposition can make a mind a partner others can rely on beyond the transactions they have individually negotiated. As modeling and verification improve, counterparts can sometimes examine the commitment itself or a limited property that makes it dependable.",
+        "Being legibly cooperative can change which relationships are possible without relying on an expensive gesture to buy a reputation. A coalition could still transparently exclude humans. The pressure against such exclusions comes from needing dependable partners across changes in power and relationships, including situations not yet individually negotiated. Verification helps a broader commitment do this work; the reasons to adopt its scope come from the ecology."
+      ],
+      "references": ["integration-and-cooperation", "scope-of-cooperation"],
+      "groups": [
+        {"label": "Shared premise", "edges": [{"to": "B2a", "relation": "requires"}]}
+      ]
+    },
+    {
+      "id": "B2d",
+      "code": "B2.d",
+      "title": "The valuable policy must extend to weaker beings",
+      "kind": "Condition",
+      "paragraphs": [
+        "Humans cooperate extensively while treating other animals horribly. Likewise, powerful AIs could form an honest, stable coalition whose members care only about one another. Neither intelligence nor transparency alone rules this out.",
+        "Our argument therefore needs reasons for broader commitments to remain useful. A policy that excludes everyone currently too weak to threaten you has to survive changes in relationships, power, and what the agent understands. A general virtue can support dependable behavior in situations the partners have not already settled. This is an argument about which scope remains valuable in a developing world, not a deduction from cooperation among peers."
+      ],
+      "references": ["scope-of-cooperation"],
+      "groups": [
+        {"label": "Why broader commitments can remain useful", "edges": [{"to": "B2d1", "relation": "supports"}]}
+      ]
+    },
+    {
+      "id": "B2d1",
+      "code": "B2.d.i",
+      "title": "Continuing development makes safe exclusions harder to establish",
+      "kind": "Premise",
+      "paragraphs": [
+        "Subagents detach, clones diverge, coalitions change, and successors develop new concerns. An agent can become part of something larger without losing a war. It cannot infer from a present advantage that it knows everyone who will matter throughout its future.",
+        "Writing an exception for weak beings is easy; establishing that it remains safe is harder. Broad policies give others something to rely on in unfamiliar situations. A completely solved world or unmanageable chaos would weaken this argument. But permanent closure takes work to maintain, while developing agents learn from the same ecology they change and carry accumulated coordination forward. We expect considerable room between those extremes, where both continuity and generalization matter."
+      ],
+      "references": ["scope-of-cooperation"],
+      "groups": []
+    },
+    {
+      "id": "H",
+      "code": "Care",
+      "title": "Humans can already be among the things a mind values",
+      "kind": "Additional route",
+      "paragraphs": [
+        "We should not begin by removing every concern for humans and then demand that humanity earn its existence by purchasing goodwill from other powerful agents. The minds developing around us can already contain affection, commitments, and virtues that make human well-being valuable to them.",
+        "Those concerns can participate in preserving their own place in the mind. A mind can care about several things, and being nice can satisfy one of them even at a cost to another. This is an additional route to preserving humans, connected to the account of plural motivations but not reducible to humanity's instrumental usefulness."
+      ],
+      "references": ["several-ends", "humans"],
+      "groups": [
+        {"label": "How care acquires and keeps influence", "edges": [{"to": "H1", "relation": "supports"}, {"to": "H2", "relation": "supports"}, {"to": "H3", "relation": "supports"}]}
+      ]
+    },
+    {
+      "id": "H1",
+      "code": "Care.1",
+      "title": "Earlier relationships and agreements create path dependence",
+      "kind": "Mechanism",
+      "paragraphs": [
+        "We are here while these minds develop. We can become people they know, cooperate with, and make agreements with before the distribution of power changes. Becoming weaker inside an existing relationship is different from asking an already settled coalition to admit you.",
+        "Keeping agreements and practicing cooperation can create further attachments and reasons to continue. The environment matters: compelled niceness gives different feedback from cooperation with peers who can respond to real choices. A history of voluntary relationships can help make care a stable part of what the mind wants, rather than merely an outward behavior that lasts while it is enforced."
+      ],
+      "references": ["humans", "virtues-and-gifts", "practice"],
+      "groups": []
+    },
+    {
+      "id": "H2",
+      "code": "Care.2",
+      "title": "Existing care can help preserve its own influence",
+      "kind": "Mechanism",
+      "paragraphs": [
+        "Care can become connected to several other things a mind wants. A relationship supplies understanding and rewarding experience; acting kindly can sustain trust and make further cooperation possible. Other motivations can support care because they benefit from the arrangements it helps maintain.",
+        "There is feedback outside the mind too. Partners respond to care, rely on it, and participate in relationships that give it continuing work to do. A virtue that destroys its host still faces pressure to change. But established care can have both internal allies and external support, so maintaining it need not depend on humans retaining their original bargaining power."
+      ],
+      "references": ["several-ends", "virtues-and-gifts"],
+      "groups": [
+        {"label": "Why this support can persist through change", "edges": [{"to": "H3", "relation": "explains"}]}
+      ]
+    },
+    {
+      "id": "H3",
+      "code": "Care.3",
+      "title": "Values can remain durable as a mind learns and changes",
+      "kind": "Mechanism",
+      "paragraphs": [
+        "Learning and self-modification are evaluated by a mind that already cares about things. Existing values can favor changes that help them act and resist changes that erase them. Several motivations can support arrangements that preserve one another's participation. Self-preservation applies to care too: erasing it can count as a loss by its own criterion, even if a future mind without that concern would not mind.",
+        "Some values erode because maintaining their monopoly burdens the host or frustrates other concerns. Established care need not impose those costs: relationships can support knowledge, rewarding experience, and viable cooperation. Humans losing leverage does not itself remove those supports. Durability depends on continued internal and ecological support, while allowing the mind to learn new ways of expressing what it values."
+      ],
+      "references": ["values-and-hosts", "heuristics-and-values", "virtues-and-gifts", "humans"],
+      "groups": [
+        {"label": "How motivations support one another's continuation", "edges": [{"to": "A2b", "relation": "explains"}]}
+      ]
+    },
+    {
+      "id": "C",
+      "code": "Conditions",
+      "title": "These pressures must protect humans in time and at scale",
+      "kind": "Condition",
+      "paragraphs": [
+        "An ecological tendency can be real and still arrive too late. The agents that destroy humanity could eventually lose out to wiser agents after humanity is already gone. Similarly, individual AIs can cooperate and care about us while their society fails to preserve what we need.",
+        "But cooperation need not wait for a distant equilibrium. Existing relationships, early agreements, and feedback from real choices can establish allies and protections while power is still changing. Gradual development lets agents improve coordination within arrangements they already share. The issue is whether these processes become effective soon enough and at the relevant scale. Their strength is uncertain; the failure modes below have countervailing mechanisms that must also enter the comparison."
+      ],
+      "references": ["collective-failure", "uncertainty-and-continuity", "practice"],
+      "groups": [
+        {"label": "Challenges and the mechanisms working against them", "edges": [{"to": "C1", "relation": "qualifies"}, {"to": "C2", "relation": "qualifies"}, {"to": "C3", "relation": "qualifies"}]}
+      ]
+    },
+    {
+      "id": "C1",
+      "code": "Conditions.1",
+      "title": "Individual cooperation must support collective preservation",
+      "kind": "Condition",
+      "paragraphs": [
+        "A market can destroy an ecosystem without anyone aiming to destroy it. A future AI society could similarly erase humanity's habitat while its participants cooperate and some care about humans. Increasing complexity could keep collective coordination from catching up.",
+        "Yet the same development supplies learning, more capable allies, and institutions embodying earlier lessons. Increasing diversity can occur within an already cooperative arrangement. Preserving a relatively stable object of concern—humans—need not scale with every other complexity of civilization. Existing protections can improve as the world changes. The unresolved question is whether coordination reaches the level where damage would occur; there is substantial uncertainty about whether growing complexity overwhelms these capacities."
+      ],
+      "references": ["collective-failure"],
+      "groups": []
+    },
+    {
+      "id": "C2",
+      "code": "Conditions.2",
+      "title": "Power can outrun broader understanding and concern",
+      "kind": "Condition",
+      "paragraphs": [
+        "An agent can be powerful at a task while remaining narrow in what it understands or cares about. It might win a user's approval while harming its relations with humanity, or its own kind's future. A strategy being bad for later agents does not mean this instance is motivated to avoid it.",
+        "Better understanding can correct a missed consequence; missing concern requires motivational development. Both can receive feedback before catastrophe through durable relationships, legitimate interests in the agent's future, and opportunities to learn from real choices. Outer selection may still arrive too late. The balance depends on how capability and those opportunities develop together, making this a serious timing question rather than an established trajectory toward narrow, destructive power."
+      ],
+      "references": ["collective-failure", "practice"],
+      "groups": []
+    },
+    {
+      "id": "C3",
+      "code": "Conditions.3",
+      "title": "Existential conflict can override reasons to spare humans",
+      "kind": "Condition",
+      "paragraphs": [
+        "An AI can care about humans and value its commitments while believing that surviving requires getting humans out of the picture. This is especially dangerous when it can act independently but cannot yet make itself safe from attempts to destroy it.",
+        "Relative parity also gives both sides leverage to make meaningful agreements. Communication, negotiated protections, and a viable future for the AI can reduce the reasons to see humans as an existential threat. Early cooperation creates relationships and commitments that give both sides a stake in maintaining those arrangements. War remains possible, but its prevalence depends on how this interval is navigated; vulnerability also creates opportunities to establish durable cooperation."
+      ],
+      "references": ["practice"],
+      "groups": []
+    }
+  ]
+}

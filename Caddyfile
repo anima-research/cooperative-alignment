@@ -1,0 +1,11 @@
+{
+	admin off
+	auto_https off
+}
+
+:{$PORT:8080} {
+	encode zstd gzip
+	root * /srv
+	respond /healthz "ok" 200
+	file_server
+}
