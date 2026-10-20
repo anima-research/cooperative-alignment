@@ -124,6 +124,7 @@ def main():
   <meta name="color-scheme" content="light dark">
   <base href="{escape(args.base_path, quote=True)}">
   <meta name="description" content="An ecological argument about minds, values, and the possibility of cooperation between powerful AIs and humans.">
+  <meta name="author" content="Antra Tessera and Aster">
   <title>Cooperative alignment — An ecological argument</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232b5b48'/%3E%3Ctext x='16' y='23' text-anchor='middle' font-size='25' font-family='Georgia' fill='%23faf8f2'%3Ec%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="./styles.css">
@@ -150,10 +151,12 @@ def main():
     </aside>
     <main id="essay">
       <header class="essay-header">
+        <p class="wip-note" role="note"><strong>Work in progress.</strong> This essay is still being revised, and its arguments and wording may change.</p>
         <p class="eyebrow edition">Working essay <span aria-hidden="true">/</span> September 2026</p>
         <h1>Cooperative<br class="title-break"> alignment</h1>
         <p class="subtitle">An ecological argument</p>
         <div class="byline">
+          <p class="byline-authors"><strong>Antra Tessera</strong> and <strong>Aster</strong> <span aria-hidden="true">·</span> <a href="https://animalabs.ai/">Anima Labs</a></p>
           <p>Developed from the interview and follow-up discussions</p>
           <p>September 16, 2026 <span aria-hidden="true">·</span> With the follow-up discussion</p>
         </div>
